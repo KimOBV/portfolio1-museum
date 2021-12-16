@@ -19,7 +19,7 @@ img {
 .p1 h1 {
   font-size: 2.5rem;
   margin: 0 0.8em 0 0.1em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p2 {
   display: flex;
@@ -44,9 +44,9 @@ img {
 }
 .p3 p {
   margin: 0.5em;
-  color: var(--color6);
+  color: var(--color4);
   font-weight: normal;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 1px black;
 }
 @media (min-width: 500px) {
   main {
@@ -65,7 +65,7 @@ img {
   .p1 h1 {
     font-size: 2.5rem;
     margin: 0 0.8em 0 0.1em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p2 {
     display: flex;
@@ -94,7 +94,7 @@ img {
     font-size: 1.1rem;
     margin: 1em 0.5em 0.4em 0.5em;
     font-weight: normal;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -104,7 +104,7 @@ img {
     flex-wrap: wrap;
     margin: 8em auto 6em auto;
     width: auto;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p1 {
     display: flex;
@@ -121,7 +121,7 @@ img {
   .p1 h1 {
     font-size: 3rem;
     margin: 0 5em 0 0em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p2 {
     display: flex;
@@ -158,6 +158,6 @@ img {
     font-size: 1.2rem;
     margin: 0.5em 0.5em 0.4em 24em;
     color: var(--color4);
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
 }

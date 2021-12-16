@@ -17,18 +17,23 @@
   </head>
   <body>
     <header class="header">
+      <div class="blur"></div>
       <a href="/index.html" class="logo"><img src="/img/logo.svg" alt="Logo for the Museum of Science and Nature, it depicts an atom"><img src="/img/logotxt.svg" alt="Logo for the Museum of Science and Nature"></a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/exhibit.html">Exhibit</a></li>
-        <li><a href="/vr.html">Virtual Reality</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
+      <nav>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/exhibit.html">Exhibit</a></li>
+          <li><a href="/vr.html">Virtual Reality</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <h1>About the museum of Science+Nature</h1>
       <section class="p1"></section>
+      
       <section class="p2">
         <p>The Museum has a goal of creating unique hands-on experiences offering something for everyone. We are committed to finding solutions to access challenges presented by some of our historic artifacts, and helping support individual needs.</p>
       </section>
@@ -81,11 +86,14 @@
           <li><a href="/about.html">About</a></li>
         </ul>
       </nav>
-      <nav class="letter">
+      <div class="letter">
         <p>Join our newsletter</p>
-        <h4>Email Address</h4>
+        <form>
+        <label for="email">Email Address</label>
         <input type="Email" placeholder="Email Address" />
-      </nav>
+        <input type="submit">
+      </form>
+      </div>
       <p>@2021 Museum of Science+Nature</p>
     </footer>
   </body>

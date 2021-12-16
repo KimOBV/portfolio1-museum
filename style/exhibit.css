@@ -15,7 +15,7 @@ img {
 }
 .p1 h1 {
   font-size: 2rem;
-  text-shadow: 2px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
   margin: 0.1em;
 }
 .p2 {
@@ -23,12 +23,12 @@ img {
   flex-direction: row;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p2 p {
   font-size: 1rem;
   margin: 1em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p3 {
   display: flex;
@@ -40,19 +40,19 @@ img {
 }
 .p3 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p4 {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p4 p {
   font-size: 1rem;
   margin: 1em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p5 {
   display: flex;
@@ -64,19 +64,22 @@ img {
 }
 .p5 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p6 {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p6 p {
   font-size: 1rem;
   margin: 1em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
+}
+.p6 b {
+  font-weight: 400;
 }
 .p7 {
   display: flex;
@@ -88,19 +91,22 @@ img {
 }
 .p7 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p8 {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p8 p {
   font-size: 1rem;
   margin: 1em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
+}
+.p8 b {
+  font-weight: 400;
 }
 .p9 {
   display: flex;
@@ -112,7 +118,7 @@ img {
 }
 .p9 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 @media (min-width: 500px) {
   main {
@@ -248,7 +254,7 @@ img {
   .p2 p {
     font-size: 1rem;
     margin: 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p3 {
     display: flex;
@@ -317,5 +323,8 @@ img {
   }
   .p9 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
+  }
+  * p {
+    line-height: 1.2;
   }
 }

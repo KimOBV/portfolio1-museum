@@ -5,6 +5,9 @@ img {
   margin-right: auto;
   margin-bottom: 0em;
 }
+* b{
+  font-weight: 500;
+}
 .p1 {
   display: flex;
   flex-direction: column-reverse;
@@ -15,7 +18,7 @@ img {
 }
 .p1 h1 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
   
 }
 .p2 {
@@ -23,13 +26,13 @@ img {
   flex-direction: row;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
   color: var(--color4);
 }
 .p2 p {
   font-size: 1rem;
   padding: 0 1.1em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p3 {
   display: flex;
@@ -45,14 +48,14 @@ img {
   padding: 0 1.1em;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p4 {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p4 p {
   font-size: 1rem;
@@ -61,7 +64,7 @@ img {
   margin-right: auto;
   text-align: center;
   padding: 0 1.1em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p5 {
   display: flex;
@@ -73,20 +76,20 @@ img {
 }
 .p5 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p6 {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   height: auto;
-  background-color: var(--color3);
+  background-color: var(--color5);
 }
 .p6 p {
   text-align: center;
   font-size: 1rem;
   padding: 0 1.1em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 .p7 {
   display: flex;
@@ -98,7 +101,7 @@ img {
 }
 .p7 h3 {
   margin: 0.5em 0.5em 0.4em 0.5em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
 @media (min-width: 500px) {
   main {
@@ -114,7 +117,7 @@ img {
   }
   .p1 h1 {
     font-size: 2rem;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p2 {
     display: flex;
@@ -126,7 +129,7 @@ img {
   .p2 p {
     font-size: 1rem;
     margin: 1em 1em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p3 {
     display: flex;
@@ -138,7 +141,7 @@ img {
   }
   .p3 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p4 {
     display: flex;
@@ -149,7 +152,7 @@ img {
   .p4 p {
     font-size: 1rem;
     margin: 1em 1em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p5 {
     display: flex;
@@ -160,7 +163,7 @@ img {
   }
   .p5 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p6 {
     display: flex;
@@ -171,7 +174,7 @@ img {
   .p6 p {
     font-size: 1rem;
     margin: 1em 1em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p7 {
     display: flex;
@@ -182,7 +185,7 @@ img {
   }
   .p7 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p8 {
     display: flex;
@@ -193,7 +196,7 @@ img {
   .p8 p {
     font-size: 1rem;
     margin: 1em 1em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p9 {
     display: flex;
@@ -204,7 +207,7 @@ img {
   }
   .p9 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -216,7 +219,7 @@ img {
     margin: auto;
     padding-top: 6em;
     width: 50em;
-    height: 80em;
+    height: 88em;
   }
   .p1 {
     display: flex;
@@ -229,7 +232,7 @@ img {
   }
   .p1 h1 {
     font-size: 2rem;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p2 {
     display: flex;
@@ -245,7 +248,7 @@ img {
   .p2 p {
     font-size: 0.9rem;
     margin: 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p3 {
     display: flex;
@@ -261,7 +264,7 @@ img {
   }
   .p3 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p4 {
     display: flex;
@@ -275,7 +278,7 @@ img {
     font-size: 1rem;
     width: 25%;
     margin: 1em auto;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p5 {
     display: flex;
@@ -286,7 +289,7 @@ img {
   }
   .p5 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p6 {
     display: flex;
@@ -301,7 +304,7 @@ img {
   .p6 p {
     font-size: 1rem;
     padding: 0;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
   }
   .p7 {
     display: flex;
@@ -316,6 +319,9 @@ img {
   }
   .p7 h3 {
     margin: 0.5em 0.5em 0.4em 0.5em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
+  }
+  * p {
+    line-height: 1.2;
   }
 }
